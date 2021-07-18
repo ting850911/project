@@ -11,6 +11,7 @@
   margin: 10px 0px;
 }
 .col-2 {
+  line-height: 1.5;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -19,4 +20,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.icons i {
+  margin-right: 10px;
 }
