@@ -1,0 +1,22 @@
+.header {
+  height: 5vh;
+}
+.main {
+  height: 70vh;
+}
+.focus {
+  width: 400px;
+}
+.btn {
+  margin: 10px 0px;
+}
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logoandapp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
