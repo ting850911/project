@@ -22,15 +22,11 @@
   </head>
   <body>
     <!-- header start-->
-    <nav class="navbar navbar-light bg-light">
-      <div
-        class="header container-fluid"
-      >
-        <a class="navbar-brand mx-auto my-auto" href="#">
-          <img src="" alt="logo"/>
-        </a>
-      </div>
-    </nav>
+    <nav class="navbar navbar-light bg-light container-fluid d-flex justify-content-center align-items-center">
+      <a class="navbar-brand d-flex" href="#">
+        <img src="./pic/logo.png" alt="logo"/>
+      </a>
+  </nav>
     <!-- header end-->
 
     <!-- content start-->
@@ -49,7 +45,7 @@
                   >請輸入帳號</label
                 >
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
                   id="exampleInputEmail1"
                 />
@@ -87,36 +83,36 @@
     <hr>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-1"></div>
-        <div class="logoandapp col-5">
-          <a href=""><img src="" alt="logo"></a>
-          <a href=""><img src="" alt="download app"></a>
+        <div class="col-sm-1"></div>
+        <div class="logoandapp col-sm-5">
+          <a href=""><img src="./pic/logo.png" alt="logo"></a>
+          <a href="" class="text-dark text-decoration-none"><span class="border border-1 rounded-1 p-1 border-dark"><i class="fab fa-google-play me-1"></i>應用程式</span></a>
         </div>
-        <div class="col-1"></div>
-        <div class="col-2">
-          <a href="">關於我們</a>
-          <a href="">建立企業帳戶</a>
-          <a href="">登入您的商店</a>
+        <div class="col-sm-1"></div>
+        <div class="footer-content col-sm-2">
+          <a href="" class="link-dark text-decoration-none">關於我們</a>
+          <a href="" class="link-dark text-decoration-none">建立企業帳戶</a>
+          <a href="" class="link-dark text-decoration-none">登入您的商店</a>
         </div>
-        <div class="col-2">
-          <a href="">取得協助</a>
-          <a href="">附近的商家</a>
-          <a href="">切換語言</a>
+        <div class="footer-content col-sm-2">
+          <a href="" class="link-dark text-decoration-none">取得協助</a>
+          <a href="" class="link-dark text-decoration-none">附近的商家</a>
+          <a href="" class="link-dark text-decoration-none">切換語言</a>
         </div>
-        <div class="col-1"></div>
+        <div class="col-sm-1"></div>
       </div>
-      <div class="row d-flex justify-content-center"><div class="col-10"><hr></div></div>
+      <div class="row d-flex justify-content-center"><div class="col-sm-10"><hr></div></div>
       <div class="row">
-        <div class="col-1"></div>
-        <div class="icons col-5">
+        <div class="col-sm-1"></div>
+        <div class="icons col-sm-5 d-flex justify-content-start align-items-center">
           <i class="fab fa-facebook"></i>
           <i class="fab fa-instagram"></i>
           <i class="fab fa-twitter"></i>
         </div>
-        <div class="col-5 d-flex justify-content-end">
+        <div class="col-sm-5 d-flex justify-content-end align-items-center">
          <span>&copy;2021 今天喝什麼 Inc.</span>
         </div>
-        <div class="col-1"></div>
+        <div class="col-sm-1"></div>
       </div>
     </div>
     <!-- footer end -->

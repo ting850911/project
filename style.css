@@ -1,6 +1,3 @@
-.header {
-  height: 5vh;
-}
 .main {
   height: 70vh;
 }
@@ -10,7 +7,7 @@
 .btn {
   margin: 10px 0px;
 }
-.col-2 {
+.footer-content {
   line-height: 1.5;
   display: flex;
   flex-direction: column;
@@ -21,6 +18,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.logoandapp span {
+  font-size: x-small;
+}
 .icons i {
   margin-right: 10px;
+}
+img {
+  max-width: 100px;
+  height: auto;
 }
