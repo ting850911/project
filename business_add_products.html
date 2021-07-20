@@ -19,6 +19,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="add_products.css" />
   </head>
   <body>
     <!-- header start -->
@@ -39,10 +40,306 @@
 
     <!-- content start -->
     <div class="container-fluid">
-      <div class="row p-0">
+      <div class="row">
         <div class="col-sm-1"></div>
         <div class="col-sm-10">
-          <p class="fs-4 mt-5 fw-bold">修改商品</p>
+          <p class="fs-4 mt-5 fw-bold">新增商品</p>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 d-flex align-items-center mb-3">
+            <span class="fs-6 me-3">商品名稱</span>
+            <input
+              class="form-control form-control-sm"
+              style="max-width: 30%"
+              type="text"
+            />
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-1"></div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 d-flex align-items-center mb-3">
+            <span class="fs-6 me-3">大杯金額</span>
+            <input
+              class="form-control form-control-sm"
+              style="max-width: 10%"
+              type="text"
+            />
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-1"></div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 d-flex align-items-center mb-3">
+            <span class="fs-6 me-3">中杯金額</span>
+            <input
+              class="form-control form-control-sm"
+              style="max-width: 10%"
+              type="text"
+            />
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <!-- 大杯總熱量start -->
+        <div class="col-sm-1"></div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 d-flex align-items-center mb-3">
+            <span class="fw-bold">大杯總熱量</span>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-1"></div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 d-flex align-items-center mb-3">
+            <span id="cal_space">
+              <span class="me-3">全糖</span>
+              <input
+                class="form-control form-control-sm me-1"
+                style="max-width: 30%; max-height: 100%"
+                type="text"
+              />
+              <span class="me-3">大卡</span>
+            </span>
+            <span id="cal_space">
+              <span class="me-3">少糖</span>
+              <input
+                class="form-control form-control-sm me-1"
+                style="max-width: 30%; max-height: 100%"
+                type="text"
+              />
+              <span class="me-3">大卡</span>
+            </span>
+            <span id="cal_space">
+              <span class="me-3">半糖</span>
+              <input
+                class="form-control form-control-sm me-1"
+                style="max-width: 30%; max-height: 100%"
+                type="text"
+              />
+              <span class="me-3">大卡</span>
+            </span>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-1"></div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 d-flex align-items-center mb-3">
+            <span id="cal_space">
+              <span class="me-3">微糖</span>
+              <input
+                class="form-control form-control-sm me-1"
+                style="max-width: 30%; max-height: 100%"
+                type="text"
+              />
+              <span class="me-3">大卡</span>
+            </span>
+            <span id="cal_space">
+              <span class="me-3">一分</span>
+              <input
+                class="form-control form-control-sm me-1"
+                style="max-width: 30%; max-height: 100%"
+                type="text"
+              />
+              <span class="me-3">大卡</span>
+            </span>
+            <span id="cal_space">
+              <span class="me-3">無糖</span>
+              <input
+                class="form-control form-control-sm me-1"
+                style="max-width: 30%; max-height: 100%"
+                type="text"
+              />
+              <span class="me-3">大卡</span>
+            </span>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <!-- 中杯總熱量start -->
+        <div class="col-sm-1"></div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 d-flex align-items-center mb-3">
+            <span class="fw-bold">中杯總熱量</span>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-1"></div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 d-flex align-items-center mb-3">
+            <span id="cal_space">
+              <span class="me-3">全糖</span>
+              <input
+                class="form-control form-control-sm me-1"
+                style="max-width: 30%; max-height: 100%"
+                type="text"
+              />
+              <span class="me-3">大卡</span>
+            </span>
+            <span id="cal_space">
+              <span class="me-3">少糖</span>
+              <input
+                class="form-control form-control-sm me-1"
+                style="max-width: 30%; max-height: 100%"
+                type="text"
+              />
+              <span class="me-3">大卡</span>
+            </span>
+            <span id="cal_space">
+              <span class="me-3">半糖</span>
+              <input
+                class="form-control form-control-sm me-1"
+                style="max-width: 30%; max-height: 100%"
+                type="text"
+              />
+              <span class="me-3">大卡</span>
+            </span>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-1"></div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 d-flex align-items-center mb-3">
+            <span id="cal_space">
+              <span class="me-3">微糖</span>
+              <input
+                class="form-control form-control-sm me-1"
+                style="max-width: 30%; max-height: 100%"
+                type="text"
+              />
+              <span class="me-3">大卡</span>
+            </span>
+            <span id="cal_space">
+              <span class="me-3">一分</span>
+              <input
+                class="form-control form-control-sm me-1"
+                style="max-width: 30%; max-height: 100%"
+                type="text"
+              />
+              <span class="me-3">大卡</span>
+            </span>
+            <span id="cal_space">
+              <span class="me-3">無糖</span>
+              <input
+                class="form-control form-control-sm me-1"
+                style="max-width: 30%; max-height: 100%"
+                type="text"
+              />
+              <span class="me-3">大卡</span>
+            </span>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <!-- hashtag start -->
+        <div class="col-sm-1"></div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 d-flex align-items-center mb-3">
+            <span class="fw-bold">Hashtag (至多2個，可以不選)</span>
+          </div>
+        </div>
+        <!-- hashtag line1 -->
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10 d-flex mb-3">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" />
+            <label class="form-check-label">紅茶</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" />
+            <label class="form-check-label">綠茶</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" />
+            <label class="form-check-label">奶茶</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" />
+            <label class="form-check-label">青茶</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" />
+            <label class="form-check-label">烏龍茶</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" />
+            <label class="form-check-label">鮮奶茶</label>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <!-- hashtag line2 -->
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10 d-flex mb-3">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" />
+            <label class="form-check-label">冬瓜茶</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" />
+            <label class="form-check-label">水果茶</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" />
+            <label class="form-check-label">抹茶</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" />
+            <label class="form-check-label">可可</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" />
+            <label class="form-check-label">冰沙</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input me-1" type="checkbox" />
+            <label class="form-check-label"
+              ><input
+                class="form-control form-control-sm"
+                style="max-width: 40%; max-height: 100%"
+                type="text"
+                placeholder="自訂"
+            /></label>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-1"></div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 d-flex align-items-center mb-3">
+            <span class="fw-bold">冰度</span>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10 d-flex align-items-center mb-3">
+          <select class="form-select" style="max-width: 30%">
+            <option selected>皆可</option>
+            <option value="1">冷</option>
+            <option value="2">熱</option>
+          </select>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-1"></div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 d-flex align-items-center mb-3">
+            <span class="fw-bold">系列分類</span>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10 d-flex align-items-center mb-3">
+          <select class="form-select" style="max-width: 30%">
+            <option value="0"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+          </select>
         </div>
         <div class="col-sm-1"></div>
       </div>
