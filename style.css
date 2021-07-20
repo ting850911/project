@@ -1,3 +1,9 @@
+body {
+  background-color: #fdf6f0;
+}
+.navbar {
+  background-color: #f8e2cf;
+}
 .main {
   height: 70vh;
 }
@@ -6,6 +12,7 @@
 }
 .btn {
   margin: 10px 0px;
+  background-color: #fcd8d4;
 }
 .footer-content {
   line-height: 1.5;
@@ -13,12 +20,16 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.logoandapp {
+.logo {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.logoandapp span {
+.app_download {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 0px 8px 0px;
   font-size: x-small;
 }
 .icons i {
@@ -27,4 +38,7 @@
 img {
   max-width: 100px;
   height: auto;
+}
+#footer {
+  background-color: #f8e2cf;
 }
