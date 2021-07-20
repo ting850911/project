@@ -10,9 +10,16 @@ body {
 .focus {
   width: 400px;
 }
-.btn {
-  margin: 10px 0px;
+.btn:hover {
   background-color: #fcd8d4;
+  border-color: #fcd8d4;
+  color: black;
+}
+.table {
+  vertical-align: middle;
+}
+tbody {
+  border-color: black;
 }
 .footer-content {
   line-height: 1.5;
@@ -35,10 +42,27 @@ body {
 .icons i {
   margin-right: 10px;
 }
+.input-group-text:hover {
+  background: #fcd8d4;
+}
+.input-group-text {
+  border: 0px;
+  border-left: 1px solid black;
+}
+#inputGroupFile02 {
+  border: 0px;
+  margin-left: unset;
+}
 img {
   max-width: 100px;
   height: auto;
 }
 #footer {
   background-color: #f8e2cf;
+  margin-top: 50px;
+  padding: 20px;
+}
+hr {
+  background-color: white;
+  opacity: 1;
 }
