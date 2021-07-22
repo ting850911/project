@@ -64,3 +64,9 @@ hr {
 .icons i {
   margin-right: 10px;
 }
+
+/* hmaburger menu */
+#hamburgerMenu:nth-child(9),
+:nth-child(10) {
+  justify-content: flex-end;
+}
